@@ -38,9 +38,7 @@ cd movie-dashboard
 2. Instala dependencias
 ```bash
 pnpm install
-```
 # o
-```bash
 npm install
 ```
 3. Configura TMDB (Opcional)
@@ -51,9 +49,7 @@ TMDB_API_KEY=tu_tmdb_api_key
 4. Ejecuta el proyecto
 ```bash
 pnpm dev
-```
 # o
-```bash
 npm run dev
 ```
 La aplicación estará disponible en http://localhost:3000
@@ -66,6 +62,8 @@ Contraseña: test123456
 Nota: Este usuario es solo para demostración y no se conecta a una base de datos real.
 ```
 📁 Estructura del Proyecto
+
+```bash
 movie-dashboard/
 ├── app/                    # Next.js App Router
 │   ├── api/               # API Routes
@@ -79,6 +77,8 @@ movie-dashboard/
 │   └── supabase/         # Cliente de Supabase (en pausa)
 ├── scripts/              # Scripts de base de datos
 └── public/               # Archivos estáticos
+
+```
 🎯 Funcionalidades
 Para Usuarios No Registrados
 Ver la página de inicio con información de la app
@@ -110,4 +110,5 @@ Asegúrate de configurar las variables de entorno y ejecutar pnpm build antes de
 
 
 Hecho con ❤️ por lcgaibor" 
+
 
