@@ -34,27 +34,37 @@ Una aplicación web de dashboard de películas construida con Next.js, Supabase 
 ```bash
 git clone https://github.com/lcgaibor/movie-dashboard.git
 cd movie-dashboard
+```
 2. Instala dependencias
+```bash
 pnpm install
+```
 # o
+```bash
 npm install
+```
 3. Configura TMDB (Opcional)
 Si quieres datos reales de películas, obtén una API key de TMDB:
-
+```bash
 TMDB_API_KEY=tu_tmdb_api_key
+```
 4. Ejecuta el proyecto
+```bash
 pnpm dev
+```
 # o
+```bash
 npm run dev
+```
 La aplicación estará disponible en http://localhost:3000
 
 👤 Usuario de Prueba
 Para probar las funcionalidades sin Supabase, puedes usar estas credenciales de prueba:
-
+```bash
 Email: test@example.com
 Contraseña: test123456
 Nota: Este usuario es solo para demostración y no se conecta a una base de datos real.
-
+```
 📁 Estructura del Proyecto
 movie-dashboard/
 ├── app/                    # Next.js App Router
@@ -83,10 +93,13 @@ Buscar películas por título
 Gestionar su perfil
 🔧 Scripts Disponibles
 # Desarrollo
+```bash
 pnpm dev          # Inicia servidor de desarrollo
 pnpm build        # Construye para producción
 pnpm start        # Inicia servidor de producción
 pnpm lint         # Ejecuta ESLint
+
+```
 🚀 Despliegue
 Vercel (Recomendado)
 Conecta tu repositorio de GitHub a Vercel
@@ -96,5 +109,5 @@ Otros Proveedores
 Asegúrate de configurar las variables de entorno y ejecutar pnpm build antes del despliegue.
 
 
-Hecho con ❤️ por lcgaibor" > README.md
+Hecho con ❤️ por lcgaibor" 
 
